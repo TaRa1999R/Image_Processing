@@ -1,34 +1,40 @@
-** ASSIGNMENT 27 PICTURS **
+# ASSIGNMENT 27 PICTURS
 
-27-1-INPUT
+## 27-1
+Input :
 
-![Alt text](1_input.jpg)
+![Alt text](inputs/input_1.jpg)
 
-27-1-OUTPUT
+Output :
 
-![Alt text](1_output.jpg)
+![Alt text](outputs/output_1.jpg)
 
-27-2-INPUT
+## 27-2
+Input :
 
-![Alt text](2_input.jpg)
+![Alt text](inputs/input_2.jpg)
 
-27-2-OUTPUT is a video ( There is a picture of this video )
-![Alt text](2_output.png)
+Output is a video ( There is a picture of this video ) :
 
-27-3-INPUT
-![Alt text](3_input.jpg)
+![Alt text](outputs/output_2.png)
 
-27-3-OUTPUT is a video ( There is a picture of this video )
-![Alt text](3_output.png)
+## 27-3
+Input :
 
-27-4-OUTPUT is a color detector :
+![Alt text](inputs/input_3.jpg)
+
+Output is a video ( There is a picture of this video ) :
+
+![Alt text](outputs/output_3.png)
+
+## 27-4 : This is a color detector :
 A. Detect BLACK ⚫
-![Alt text](4_output_black.png)
+![Alt text](outputs/output_4_black.png)
 
 
 B. Detect WHITE ⚪
-![Alt text](4_output_white.png)
+![Alt text](outputs/output_4_white.png)
 
 
 C. Detect GRAY  🔘
-![Alt text](4_output_gray.png)
+![Alt text](outputs/output_4_gray.png)
