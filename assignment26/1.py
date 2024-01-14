@@ -25,4 +25,4 @@ for repeat in range (8) :
 
 cv2.imshow ("result 1", img_black)
 cv2.waitKey ()
-cv2.imwrite ("1_output.jpg" , img_black)
+cv2.imwrite ("assignment26\outputs\output_1_chess_board.jpg" , img_black)
