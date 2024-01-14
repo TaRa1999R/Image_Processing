@@ -2,8 +2,8 @@
 import cv2
 import numpy
 
-input_list = ["2_girl_input.jpg" , "2_man_input.jpg"]
-output_list = ["2_girl_output.jpg" , "2_man_output.jpg"]
+input_list = ["assignment26\inputs\input_2_girl.jpg" , "assignment26\inputs\input_2_boy.jpg"]
+output_list = ["assignment26\outputs\output_2_girl.jpg" , "assignment26\outputs\output_2_boy.jpg"]
 
 for i in range (2) :
     img = cv2.imread(input_list[i])
