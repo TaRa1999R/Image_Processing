@@ -2,7 +2,7 @@
 import cv2
 
 cap = cv2.VideoCapture (0)
-writer = cv2.VideoWriter ("4_output.mp4" , cv2.VideoWriter_fourcc(*'mpv4') , 10 , (640 , 480))
+writer = cv2.VideoWriter ("assignment27\outputs\output_4.mp4" , cv2.VideoWriter_fourcc(*'mpv4') , 10 , (640 , 480))
 
 while True :
     _ , fram = cap.read ()
