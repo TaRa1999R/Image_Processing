@@ -1,31 +1,27 @@
-  ** ASSIGNMENT 26 OUTPUTS **
+# ASSIGNMENT 26 OUTPUTS
 
-26-1. Chess Board
+## 26-1. Chess Board
 
-![Alt text](1_output.jpg)
-
-
-26-2. Invert dark and light
-
-![Alt text](2_girl_output.jpg)
-![Alt text](2_man_output.jpg)
+![Alt text](outputs/output_1_chess_board.jpg)
 
 
-26-3. Rotate
+## 26-2. Invert dark and light
 
-![Alt text](3_output.jpg)
+![Alt text](outputs/output_2_girl.jpg)
+![Alt text](outputs/output_2_boy.jpg)
 
+## 26-3. Rotate
 
-26-4. Name Charecter
+![Alt text](outputs/output_3.jpg)
 
-![Alt text](4_output.jpg)
+## 26-4. Name Charecter
 
+![Alt text](outputs/output_4.jpg)
 
-26-5. Gradient
+## 26-5. Gradient
 
-![Alt text](5_output.jpg)
+![Alt text](outputs/output_5.jpg)
 
+## 26-6. Death Symbol
 
-26-6. Death Symbol
-
-![Alt text](6_output.jpg)
+![Alt text](outputs/output_6.jpg)
