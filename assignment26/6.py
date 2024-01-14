@@ -1,7 +1,7 @@
 
 import cv2
 
-image_in = cv2.imread ("6_input.jpg")
+image_in = cv2.imread ("assignment26\inputs\input_6.jpg")
 black_image = cv2.cvtColor (image_in , cv2.COLOR_BGR2GRAY)
 begin = 150
 end = 250
@@ -19,4 +19,4 @@ for row in range (150 , 250) :
 
 cv2.imshow ("result 6" , black_image)
 cv2.waitKey ()
-cv2.imwrite ("6_output.jpg" , black_image)
+cv2.imwrite ("assignment26\outputs\output_6.jpg" , black_image)
