@@ -1,4 +1,4 @@
-# Assignment30 : Face Alignment
+# Assignment30 : Convolution and Histogram
 
 ## How to Install
 Run following command :
