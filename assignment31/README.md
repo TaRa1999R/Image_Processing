@@ -40,7 +40,12 @@ the other filter is a vertical edge dection. It bolds vertical edges in the pict
 In this assignment we use three noise reduction in diffrent scales on three diffrent photo :
 first photo is a X-RAY photo :
 ![Alt text](inputs/input_5_xray_noisy.png)
+
 second photo is an electronic board :
+
 ![Alt text](inputs/input_5_board_noisy.png)
+
 and third photo is a noisy picture of geometric shapes :
+
 ![Alt text](inputs/input_5_image_noisy.png)
+
