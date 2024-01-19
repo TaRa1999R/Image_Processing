@@ -66,21 +66,27 @@ first photo's result =>
 second photo's result => 
 
 3 * 3 :
+
 ![Alt text](outputs/output_5_board_3.jpg)
 
 5 * 5 :
+
 ![Alt text](outputs/output_5_board_5.jpg)
 
 15 * 15 :
+
 ![Alt text](outputs/output_5_board_15.jpg)
 
 second photo's result => 
 
 3 * 3 :
+
 ![Alt text](outputs/output_5_circle_3.jpg)
 
 5 * 5 :
+
 ![Alt text](outputs/output_5_circle_5.jpg)
 
 15 * 15 :
+
 ![Alt text](outputs/output_5_circle_15.jpg)
