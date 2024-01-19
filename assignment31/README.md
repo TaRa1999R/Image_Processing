@@ -52,23 +52,35 @@ and third photo is a noisy picture of geometric shapes :
 
 Each photo is filtered in three different scale : 3 * 3, 5 * 5, and 15 * 15.
 
-first photo's result => 3 * 3 :
+first photo's result => 
+
+3 * 3 :
 ![Alt text](outputs/output_5_xray_3.jpg)
+
 5 * 5 :
 ![Alt text](outputs/output_5_xray_5.jpg)
-15*15 :
+
+15 * 15 :
 ![Alt text](outputs/output_5_xray_15.jpg)
 
-second photo's result => 3 * 3 :
+second photo's result => 
+
+3 * 3 :
 ![Alt text](outputs/output_5_board_3.jpg)
+
 5 * 5 :
 ![Alt text](outputs/output_5_board_5.jpg)
-15*15 :
+
+15 * 15 :
 ![Alt text](outputs/output_5_board_15.jpg)
 
-second photo's result => 3 * 3 :
+second photo's result => 
+
+3 * 3 :
 ![Alt text](outputs/output_5_circle_3.jpg)
+
 5 * 5 :
 ![Alt text](outputs/output_5_circle_5.jpg)
-15*15 :
+
+15 * 15 :
 ![Alt text](outputs/output_5_circle_15.jpg)
