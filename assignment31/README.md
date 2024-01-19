@@ -38,6 +38,7 @@ the other filter is a vertical edge dection. It bolds vertical edges in the pict
 
 ## Fifth part : Noise Reduction
 In this assignment we use three noise reduction in diffrent scales on three diffrent photo :
+
 first photo is a X-RAY photo :
 ![Alt text](inputs/input_5_xray_noisy.png)
 
@@ -49,3 +50,11 @@ and third photo is a noisy picture of geometric shapes :
 
 ![Alt text](inputs/input_5_image_noisy.png)
 
+Each photo is filtered in three different scale : 3*3, 5*5, and 15*15.
+
+first photo's result => 3*3 :
+![Alt text](outputs/output_5_xray_3.jpg)
+5*5 :
+![Alt text](outputs/output_5_xray_5.jpg)
+15*15 :
+![Alt text](outputs/output_5_xray_15.jpg)
