@@ -22,9 +22,14 @@ and finally we used a bar chart ==> plt.bar()
 
 ![Alt text](outputs/output_1_bar.jpg)
 
-## Second part : 
+## Second part : Foreground Focus, Blur Background
+In this assignment we hblurresd the background and draw the focus on the white flower on the foreground.
 
-...
+the input picture :
+![Alt text](inputs/input_2_rose.jpg)
+
+the output photo :
+![Alt text](outputs/output_2_rose.jpg)
 
 ## Thirs part : Edge Detection
 In this assignment we use two different edge detection method to find the following pictures edge :
