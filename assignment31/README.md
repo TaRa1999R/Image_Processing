@@ -11,12 +11,15 @@ In this assignment we calculate the following picture's histogram, and visualize
 ![Alt text](inputs/input_1_friends.jpg)
 
 firs we used a plot diagram ==> plt.plot()
+
 ![Alt text](outputs/output_1_plot.jpg)
 
 then we used a histogram diagram ==> plt.hist()
+
 ![Alt text](outputs/output_1_hist.jpg)
 
 and finally we used a bar chart ==> plt.bar()
+
 ![Alt text](outputs/output_1_bar.jpg)
 
 ## Second part : 
