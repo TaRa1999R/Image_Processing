@@ -6,9 +6,10 @@ Run following command :
 pip install -r requirments.txt
 ```
 
-## First part : 
+## First part : Histogram
+In this assignment we calculate the following picture's histogram, and visualized it :
+![Alt text](inputs/input_1_friends.jpg)
 
-...
 
 ## Second part : 
 
