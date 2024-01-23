@@ -1,4 +1,4 @@
-# Assignment30 : Convolution and Histogram
+# Assignment30 : Convolution 2D and Histogram Equalization
 
 ## How to Install
 Run following command :
@@ -6,22 +6,19 @@ Run following command :
 pip install -r requirments.txt
 ```
 
-## First part : 
+## First part : Convolution 2D
 
 ...
 
-## Second part : 
+## Second part : The Magic
 
 ...
 
-## Thirs part : 
+## Thirs part : Median Filter
 
 ...
 
-## Fourth part : 
+## Fourth part : Histogram Equalization
 
 ...
 
-## Fifth part : 
-
-...
