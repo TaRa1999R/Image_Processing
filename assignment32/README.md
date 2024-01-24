@@ -15,8 +15,11 @@ The order of pictures in the output photo are :
 ![Alt text](outputs/output_1_2Dfilter.jpg)
 
 ## Second part : The Magic
+In this assignment we use average filter on the following photo:
+![Alt text](inputs/input_2.tif)
 
-...
+We used filters with different size and amount, and attach them to each other:
+![Alt text](outputs/output_2_magic.jpg)
 
 ## Thirs part : Median Filter
 In this assignment we use median filter to reduce noise to the minimum amout of possible by image processing methods.
