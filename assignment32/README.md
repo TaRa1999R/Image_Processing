@@ -19,8 +19,9 @@ The order of pictures in the output photo are :
 ...
 
 ## Thirs part : Median Filter
+In this assignment we use median filter to reduce noise to the minimum amout of possible by image processing methods.
+the result are :
 
-...
 
 ## Fourth part : Histogram Equalization
 
