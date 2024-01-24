@@ -44,4 +44,5 @@ The first method is histogram eqalization :
 ![Alt text](outputs/output_4_land.jpg)
 
 The second method is CLAHE :
+
 ![Alt text](outputs/output_4_room.jpg)
