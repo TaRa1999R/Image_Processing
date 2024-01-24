@@ -17,5 +17,5 @@ noise_canceling ("inputs\input_3_xray.png" , "outputs\output_3_xray.jpg" , "gray
 noise_canceling ("inputs\input_3_board.png" , "outputs\output_3_board.jpg" , "gray")
 noise_canceling ("inputs\input_3_image.png" , "outputs\output_3_image.jpg" , "gray")
 noise_canceling ("inputs\input_3_balloones.png" , "outputs\output_3_balloones.jpg" , "all")
-noise_canceling ("inputs\input_3_laidy.png" , "outputs\output_3_laidy.jpg" , "gray")
+noise_canceling ("inputs\input_3_laidy.png" , "outputs\output_3_laidy.jpg" , "all")
 noise_canceling ("inputs\input_3_a.png" , "outputs\output_3_a.jpg" , "gray")
