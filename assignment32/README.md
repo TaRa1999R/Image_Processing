@@ -37,6 +37,4 @@ the result are :
 ![Alt text](outputs/output_3_a.jpg)
 
 ## Fourth part : Histogram Equalization
-
-...
-
+In this assignment we use 
