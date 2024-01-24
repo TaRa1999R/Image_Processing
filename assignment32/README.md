@@ -16,7 +16,7 @@ The order of pictures in the output photo are :
 
 ## Second part : The Magic
 In this assignment we use average filter a photo.
-We used filters with different size and amount, and attach them to each other (the first picture is the input):
+We used filters with different size and amount, and attach them to each other (the first picture is the input) :
 ![Alt text](outputs/output_2_magic.jpg)
 
 ## Thirs part : Median Filter
@@ -37,4 +37,11 @@ the result are :
 ![Alt text](outputs/output_3_a.jpg)
 
 ## Fourth part : Histogram Equalization
-In this assignment we use 
+In this assignment we use two different methods toimrove the contrast of imput images.
+I attached the input and outout pictures, so you can see the difference easily:
+The first method is histogram eqalization :
+![Alt text](outputs/output_4_city.jpg)
+![Alt text](outputs/output_4_land.jpg)
+
+The second method is CLAHE :
+![Alt text](outputs/output_4_room.jpg)
