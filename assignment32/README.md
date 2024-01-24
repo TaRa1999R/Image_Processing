@@ -24,10 +24,15 @@ I put the noisy picture and the output next to each other so you can see the cha
 the result are :
 
 ![Alt text](outputs/output_3_xray.jpg)
+
 ![Alt text](outputs/output_3_board.jpg)
+
 ![Alt text](outputs/output_3_image.jpg)
+
 ![Alt text](outputs/output_3_balloones.jpg)
+
 ![Alt text](outputs/output_3_laidy.jpg)
+
 ![Alt text](outputs/output_3_a.jpg)
 
 ## Fourth part : Histogram Equalization
