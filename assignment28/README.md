@@ -1,4 +1,4 @@
-# Assignment28 : Face Detectoe
+# Assignment 28 : Face Detectoe
 
 ## How to Install
 Run following command :

@@ -1,4 +1,4 @@
-# Assignment30 : Face Alignment
+# Assignment 30 : Face Alignment
 
 ## How to Install
 Run following command :

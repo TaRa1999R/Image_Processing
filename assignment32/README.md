@@ -1,4 +1,4 @@
-# Assignment30 : Convolution 2D and Histogram Equalization
+# Assignment 32 : Convolution 2D and Histogram Equalization
 
 ## How to Install
 Run following command :

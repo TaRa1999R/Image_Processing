@@ -1,4 +1,4 @@
-# Assignment30 : Convolution and Histogram
+# Assignment 31 : Convolution and Histogram
 
 ## How to Install
 Run following command :

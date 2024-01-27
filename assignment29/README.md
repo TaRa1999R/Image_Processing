@@ -1,4 +1,4 @@
-# assignment29 : Basic Math Operations
+# assignment 29 : Basic Math Operations
 
 ## How to Install
 Run the following command :
