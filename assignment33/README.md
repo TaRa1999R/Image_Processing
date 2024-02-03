@@ -1,4 +1,4 @@
-# Assignment 33 :
+# Assignment 33 : Object Detection
 
 ## How to Install
 Run following command :
@@ -27,5 +27,13 @@ I also print the number of dices and dots on the picture :
 ...
 
 ## Fourth part : 
+
+...
+
+## Fifth part : 
+
+...
+
+## Sixth part : 
 
 ...
