@@ -12,7 +12,7 @@ pip install -r requirments.txt
 
 ## Second part : Dice Recognition
 In this assignment we can count the number of dices and the number of dots in each dice.
-I also print the number of dices and dots on the picture :
+A rectangle is drawn around each dice and a circle is drawn around each dot. I also print the number of dices and dots on the picture :
 
 ![alt text](outputs/output_2_1D.jpg)
 
