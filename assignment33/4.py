@@ -2,7 +2,8 @@
 import cv2
 import numpy as np
 
-img = cv2.imread ("inputs\input_3_BW.jpg" , cv2.IMREAD_GRAYSCALE)
+img = cv2.imread ("inputs\input_BW.jpg" , cv2.IMREAD_GRAYSCALE)
+_ , thresh = cv2.threshold (img , 120 , 255 , cv2.THRESH_BINARY)
 
 # cv2 code
 
@@ -10,5 +11,5 @@ img = cv2.imread ("inputs\input_3_BW.jpg" , cv2.IMREAD_GRAYSCALE)
 # mine code
 
 
-cv2.imshow (img)
+cv2.imshow ("" , thresh)
 cv2.waitKey ()
