@@ -6,12 +6,11 @@ Run following command :
 pip install -r requirments.txt
 ```
 
-## First part : 
-
-...
+## First part : Histogram to Image
+In this assignment i wrote code that can reconstruct image from a given histogram.
 
 ## Second part : Dice Recognition
-In this assignment I write a code that can count the number of dices and the number of dots in each dice.
+In this assignment I wrote a code that can count the number of dices and the number of dots in each dice.
 A rectangle is drawn around each dice and a circle is drawn around each dot. I also print the number of dices and dots on the picture :
 
 ![alt text](outputs/output_2_1D.jpg)
