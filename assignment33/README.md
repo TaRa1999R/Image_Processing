@@ -31,7 +31,7 @@ x , y , w , h = cv2.boundingRect (contour)
 ## Fourth part : Implement contourArea function
 In This Assignment we implement contourArea function from scratch. The main code is :
 ```
-x , y , w , h = cv2.boundingRect (contour)
+area = cv2.contourArea (contours)
 ```
 
 ## Fifth part : Implement boundingRect function
