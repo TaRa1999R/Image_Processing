@@ -28,13 +28,17 @@ In This Assignment we implement boundingRect function from scratch. The main cod
 x , y , w , h = cv2.boundingRect (contour)
 ```
 
-## Fourth part : 
+## Fourth part : Implement contourArea function
+In This Assignment we implement contourArea function from scratch. The main code is :
+```
+x , y , w , h = cv2.boundingRect (contour)
+```
 
-...
-
-## Fifth part : 
-
-...
+## Fifth part : Implement boundingRect function
+In This Assignment we implement boundingRect function from scratch. The main code is :
+```
+x , y , w , h = cv2.boundingRect (contour)
+```
 
 ## Sixth part : 
 
