@@ -22,9 +22,11 @@ A rectangle is drawn around each dice and a circle is drawn around each dot. I a
 
 ![alt text](outputs/output_2_5D.jpg)
 
-## Thirs part : 
-
-...
+## Thirs part : Implement boundingRect function
+In This Assignment we implement boundingRect function from scratch. The main code is :
+```
+x , y , w , h = cv2.boundingRect (contour)
+```
 
 ## Fourth part : 
 

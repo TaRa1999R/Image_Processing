@@ -2,7 +2,6 @@
 import cv2
 import numpy as np
 
-# mine version of cv2.boundingRect () code
 def mine_bondingRect (contour) :
     x_low = x_high = contour[0][0][0]
     y_low = y_high = contour[0][0][1]
