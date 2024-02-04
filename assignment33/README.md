@@ -34,10 +34,10 @@ In This Assignment we implement contourArea function from scratch. The main code
 area = cv2.contourArea (contours)
 ```
 
-## Fifth part : Implement boundingRect function
-In This Assignment we implement boundingRect function from scratch. The main code is :
+## Fifth part : Implement findContours function
+In This Assignment we implement findContours function from scratch. The main code is :
 ```
-x , y , w , h = cv2.boundingRect (contour)
+contours , _ = cv2.findContours (img , cv2.RETR_EXTERNAL , cv2.CHAIN_APPROX_NONE)
 ```
 
 ## Sixth part : 
