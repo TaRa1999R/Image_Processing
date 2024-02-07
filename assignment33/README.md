@@ -30,7 +30,7 @@ x , y , w , h = cv2.boundingRect (contour)
 ## Fourth part : Implement contourArea function
 In this assignment I implement contourArea function from scratch. The main code is :
 ```
-area = cv2.contourArea (contours)
+area = cv2.contourArea (contour)
 ```
 
 ## Fifth part : Implement findContours function
