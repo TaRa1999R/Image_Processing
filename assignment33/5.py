@@ -16,12 +16,17 @@ def mine_findContours (image) :
     for row in range (image.shape[0]) :
         for col in range (image.shape[1]) :
             if image[row][col] == 255 :
+                contours = []
+                new = []
+                white = [col , row]
+                new.append (white)
+                contours.append (new)
                 print (f'[{col} {row}]')
                 break
                 
     
 img = cv2.imread ("inputs\input_BW.jpg" , cv2.IMREAD_GRAYSCALE)
-_ , thresh = cv2.threshold (img , 120 , 255 , cv2.THRESH_BINARY)
+_ , thresh = cv2.threshold (img , 170 , 255 , cv2.THRESH_BINARY)
 # cv2.imshow ("" , thresh)
 # cv2.waitKey ()
 
