@@ -41,3 +41,7 @@ contours , _ = cv2.findContours (img , cv2.RETR_EXTERNAL , cv2.CHAIN_APPROX_NONE
 
 ## Sixth part : A Funny Webcam Application
 In this assignment a picture is in a background and you should fill the nose and lips part by webcam.
+I choose the famous portrait "Mona Lisa" painted by da Vinci as background photo.
+The result is a video, but I'll upload an image of the desired final output.
+
+![alt text](outputs/output_6_final_photo.png)
