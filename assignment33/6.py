@@ -10,8 +10,8 @@ cap = cv2.VideoCapture (0)
 while True :
     _ , fram = cap.read ()
     fram_g = cv2.cvtColor (fram , cv2.COLOR_BGR2GRAY)
-    # fram_s = cv2.resize (fram_g , (120 , 130))
-    fram_s = fram_g [fram.shape[0] // 2 - 65 : fram.shape[0] // 2 + 65 , fram.shape[1] // 2 - 60 : fram.shape[1] // 2 + 60]
+    fram_f = cv2.flip (fram_g , 1)
+    fram_s = fram_f [fram.shape[0] // 2 - 65 : fram.shape[0] // 2 + 65 , fram.shape[1] // 2 - 60 : fram.shape[1] // 2 + 60]
 
     img[350 : 480 , 450 : 570] = fram_s
 
