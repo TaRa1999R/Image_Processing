@@ -7,7 +7,11 @@ pip install -r requirments.txt
 ```
 
 ## First part : Histogram to Image
-In this assignment i wrote code that can reconstruct image from a given histogram.
+In this assignment I have been asked to write a code that can reconstruct image from a given histogram.
+I must say that it is imposible to reconstruct an image from its histogram, because there are many photos with same histogram.
+You can see an example of this content in the following photo :
+
+![alt text](outputs/output_1.jpg)
 
 ## Second part : Dice Recognition
 In this assignment I wrote a code that can count the number of dices and the number of dots in each dice.
