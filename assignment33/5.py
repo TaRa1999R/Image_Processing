@@ -25,21 +25,25 @@ def mine_findContours (img) :
                 
                 m_contours.append (np.array (contour))
     return m_contours
-
-                    
+                   
 
 image = cv2.imread ("inputs\input_1_BW_1.jpg" , cv2.IMREAD_GRAYSCALE)
 _ , thresh = cv2.threshold (image , 170 , 255 , cv2.THRESH_BINARY)
 
 
 # open cv code
-# contours , _ = cv2.findContours (thresh , cv2.RETR_EXTERNAL , cv2.CHAIN_APPROX_NONE)
-# print (contours[5])
-# x, y, w, h = cv2.boundingRect (contours[5])
-# cv2.rectangle (image , (x,y) , (x+w,y+h) , (0,0,0) , 3)
-# cv2.imshow ("" , image)
-# cv2.waitKey ()
+contours , _ = cv2.findContours (thresh , cv2.RETR_EXTERNAL , cv2.CHAIN_APPROX_NONE)
+for c in contours :
+    x, y, w, h = cv2.boundingRect (c)
+    cv2.rectangle (image , (x,y) , (x+w,y+h) , (0 , 0 , 0) , 3)
+cv2.imshow ("cv2 result" , image)
+cv2.waitKey ()
 
 
 #my code
 contours = mine_findContours (thresh)
+for c in contours :
+    x, y, w, h = cv2.boundingRect (contours[5])
+    cv2.rectangle (image , (x,y) , (x+w,y+h) , (200 , 200 , 200) , 3)
+cv2.imshow ("mine result" , image)
+cv2.waitKey ()
