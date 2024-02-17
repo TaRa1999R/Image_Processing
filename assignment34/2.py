@@ -38,11 +38,11 @@ cv2.ellipse (b_rainbow , (600 , cols // 2) , (350 , 350) , 180 , 0 , 180 , 13 , 
 cv2.ellipse (b_rainbow , (600 , cols // 2) , (380 , 380) , 180 , 0 , 180 , 5 , 30)
 
 my_rainbow = cv2.merge ([b_rainbow , g_rainbow , r_rainbow])
-for i in range (rows) :
-    for j in range (cols) :
-        if my_rainbow [i , j] == (0 , 0 , 0) :
-            my_rainbow [i , j] = (255 , 255 , 255)
+# for i in range (rows) :
+    # for j in range (cols) :
+        # if my_rainbow [i , j] == (0 , 0 , 0) :
+            # my_rainbow [i , j] = (255 , 255 , 255)
 
 cv2.imshow ("result 2" , my_rainbow)
 cv2.waitKey ()
-# cv2.imwrite ("outputs\output_2_rainbow.jpg" , img)
+cv2.imwrite ("outputs\output_2_rainbow.jpg" , my_rainbow)
