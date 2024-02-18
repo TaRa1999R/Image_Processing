@@ -3,7 +3,6 @@ import cv2
 import numpy as np 
 
 img = cv2.imread ("inputs\input_3_watermelon.jpg")
-img = cv2.resize (img , (1000 , 700))
 
 b , g , r = cv2.split (img)
 
