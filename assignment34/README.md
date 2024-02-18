@@ -35,5 +35,6 @@ output with CMY color :
 
 ![alt text](outputs/output_4_rubik_CMY.jpg)
 
-## Fifth part : ...
-
+## Fifth part : Microsoft Logo
+In this assignment I designed a microsoft logo.
+![alt text](outputs/output_5_microsoft_logo.jpg)
