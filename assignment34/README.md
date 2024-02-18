@@ -16,8 +16,9 @@ gray_image = cv2.cvtColor (image , cv2.COLOR_BGR2GRAY)
 In this assignment I drew a rainbow by opencv library.
 ![alt text](outputs/output_2_rainbow.jpg)
 
-## Thirs part : ...
-
+## Thirs part : Conver watermelon to Materwelon
+In this assignment I convert a picture of watermelon to a materwelon, which means I changed red color to green and green color to red.
+![alt text](outputs/output_3_watermelon.jpg)
 
 ## Fourth part : ...
 
