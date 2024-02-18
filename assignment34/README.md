@@ -11,6 +11,12 @@ In this assignment I wrote a code to convert a color image to a grayscale image.
 ```
 gray_image = cv2.cvtColor (image , cv2.COLOR_BGR2GRAY)
 ```
+or
+```
+img = cv2.imread ("address" , cv2.IMREAD_GRAYSCALE)
+```
+as you can see my code's result are same as the above codes result. Just run my code.
+![alt text](outputs/output_1_joey_gray.jpg)
 
 ## Second part : Rainbow
 In this assignment I drew a rainbow by opencv library.
