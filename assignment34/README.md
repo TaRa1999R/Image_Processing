@@ -6,7 +6,7 @@ Run following command :
 pip install -r requirments.txt
 ```
 
-## First part : Conver Color Image to GrayScale Image
+## First part : Convert Color Image to GrayScale Image
 In this assignment I wrote a code to convert a color image to a grayscale image. The main code is :
 ```
 gray_image = cv2.cvtColor (image , cv2.COLOR_BGR2GRAY)
