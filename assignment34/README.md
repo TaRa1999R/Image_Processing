@@ -16,6 +16,7 @@ or
 img = cv2.imread ("address" , cv2.IMREAD_GRAYSCALE)
 ```
 as you can see my code's result are same as the above codes result. Just run my code.
+
 ![alt text](outputs/output_1_joey_gray.jpg)
 
 ## Second part : Rainbow
