@@ -27,9 +27,13 @@ input :
 
 ![alt text](inputs/input_4_rubik.png)
 
-output :
+output with RGB colors:
 
-![alt text](outputs/output_4_rubik.jpg)
+![alt text](outputs/output_4_rubik_RGB.jpg)
+
+output with CMY color :
+
+![alt text](outputs/output_4_rubik_CMY.jpg)
 
 ## Fifth part : ...
 
