@@ -22,10 +22,13 @@ In this assignment I convert a picture of watermelon to a materwelon, which mean
 
 ## Fourth part : Solving Rubik Cube
 In this assignment I used an unsolved rubik cube as an input, and a solved rubik cube will be seen as an output.
+
 input :
+
 ![alt text](inputs/input_4_rubik.png)
 
 output :
+
 ![alt text](outputs/output_4_rubik.jpg)
 
 ## Fifth part : ...
