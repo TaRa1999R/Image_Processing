@@ -1,12 +1,9 @@
-import random
+
 import cv2
 import numpy as np 
 
-input_list = ["inputs\input_2_black.png" , "inputs\input_2_blue.png" , "inputs\input_2_green.png" , "inputs\input_2_orang.png" , "inputs\input_2_purple.png" , "inputs\input_2_red.png" , "inputs\input_2_white.png" , "inputs\input_2_yellow.png"]
 
-i = random.randint (0 , len (input_list) - 1)
-img = cv2.imread (input_list[i])
-
+cap = ..
 b , g , r = cv2.split (img)
 
 if b[50 , 50] <= 80 and g[50 , 50] <= 80 and r[50 , 50] <= 80 :
