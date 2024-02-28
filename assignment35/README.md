@@ -52,5 +52,4 @@ In this assignment I used PILLOW (PIL) library to do diffrent analysis on a phot
 7. Equalize the grascale histogram
 
 ## Fifth part : Image Encryption and Decryption
-
-...
+In this assignment ...
