@@ -38,18 +38,31 @@ In this assignment I used mediapipe to detect body landmarks on webcam stream :
 In this assignment I used PILLOW (PIL) library to do diffrent analysis on a photo :
 
 1. Read a color image
+
 ![alt text](inputs/input_4_friends.jpg)
+
 2. Write a persian text on image
+
 ![alt text](outputs/output_4_persian_text.jpg)
+
 3. Calculate 3 histogram and show with plt
+
 ![alt text](outputs/output_4_histogram.jpg)
+
 4. Equalize the imge histogram
+
 ![alt text](outputs/output_4_equalized.jpg)
+
 5. Convert imge to grayscale
+
 ![alt text](outputs/output_4_gray_img.jpg)
+
 6. Calculate grayscale imge's histogram
+
 ![alt text](outputs/output_4_gray_histogram.jpg)
+
 7. Equalize the grascale histogram
+
 ![alt text](outputs/output_4_gray_equalized.jpg)
 
 ## Fifth part : Image Encryption and Decryption
