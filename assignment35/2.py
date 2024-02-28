@@ -4,7 +4,7 @@ import numpy as np
 
 
 cap = cv2.VideoCapture (0)
-writer = cv2.VideoWriter ("outputs\output_2_color_detector.mp4" , cv2.VideoWriter_fourcc (*'mpv4') , 10 , ( 640 , 480))
+writer = cv2.VideoWriter ("outputs\output_2_color_detector.mp4" , cv2.VideoWriter_fourcc (*'mpv4') , 10 , (640 , 480))
 
 while True :
     _ , frm = cap.read ()
