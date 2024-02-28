@@ -7,8 +7,14 @@ cap = cv2.VideoCapture (0)
 writer = cv2.VideoWriter ("outputs\output_2_color_detector.mp4" , cv2.VideoWriter_fourcc (*'mpv4') , 10 , ( 640 , 480))
 
 while True :
-    _, frm = cap.read ()
-    # b , g , r = cv2.split (frm)
+    _ , frm = cap.read ()
+
+    cv2.rectangle (frm , (260 , 180) , (380 , 300) , (170 , 170 , 170) , 2)
+    check_color = frm [179:302 , 259:382]
+    blur_frm = cv2.blur (frm , (200 , 200))
+    blur_frm [179:302 , 259:382] = check_color 
+
+    b , g , r = cv2.split (check_color)
 
     # if b[50 , 50] <= 80 and g[50 , 50] <= 80 and r[50 , 50] <= 80 :
         # print ("black")
@@ -34,9 +40,9 @@ while True :
     # elif b[50 , 50] <= 145 and g[50 , 50] >= 225 and r[50 , 50] >= 225 :
         # print ("yellow")
 
-    cv2.imshow ("result 2" , frm)
-    writer.write (frm)
+    cv2.imshow ("result 2" , blur_frm)
+    # writer.write (frm)
     if cv2.waitKey (25) & 0xFF == ord ('q') :
         break
 
-writer.release ()
+# writer.release ()
