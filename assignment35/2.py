@@ -22,6 +22,9 @@ while True :
     elif b[61 , 61] >= 200 and g[61 , 61] >= 200 and r[61 , 61] >= 200 :                 #white
         cv2.putText (blur_frm , "WHITE" , (180 , 150) , cv2.FONT_HERSHEY_COMPLEX , 3 , (10 , 10 ,10))
 
+    elif b[61 , 61] <= 100 and g[61 , 61] >= 200 and r[61 , 61] >= 200 :                 #yellow
+        cv2.putText (blur_frm , "YELLOW" , (180 , 150) , cv2.FONT_HERSHEY_COMPLEX , 3 , (10 , 10 , 10))
+
     elif b[61 , 61] >= 145 and g[61 , 61] <= 165 and r[61 , 61] <= 70 :                  #blue
         cv2.putText (blur_frm , "BLUE" , (180 , 150) , cv2.FONT_HERSHEY_COMPLEX , 3 , (10 , 10 ,10))
 
@@ -29,7 +32,7 @@ while True :
         cv2.putText (blur_frm , "GREEN" , (180 , 150) , cv2.FONT_HERSHEY_COMPLEX , 3 , (200 , 200 , 200))
 
     elif b[61 , 61] <= 81 and 88 <= g[61 , 61] <= 165 and r[61 , 61] >= 160 :         #orange
-        cv2.putText (blur_frm , "ORANGE" , (180 , 150) , cv2.FONT_HERSHEY_COMPLEX , 3 , (10 , 10 , 10))
+        cv2.putText (blur_frm , "ORANGE" , (180 , 150) , cv2.FONT_HERSHEY_COMPLEX , 3 , (200 , 200 , 200))
 
     elif b[61 , 61] >= 120 and g[61 , 61] <= 100 and r[61 , 61] >= 90 :                 #purple
         cv2.putText (blur_frm , "PURPLE" , (180 , 150) , cv2.FONT_HERSHEY_COMPLEX , 3 , (10 , 10 , 10))
@@ -37,11 +40,11 @@ while True :
     elif b[61 , 61] <= 100 and g[61 , 61] <= 100 and r[61 , 61] >= 160 :                 #red
         cv2.putText (blur_frm , "RED" , (180 , 150) , cv2.FONT_HERSHEY_COMPLEX , 3 , (10 , 10 , 10))
 
-    elif b[61 , 61] <= 100 and g[61 , 61] >= 200 and r[61 , 61] >= 200 :                 #yellow
-        cv2.putText (blur_frm , "YELLOW" , (180 , 150) , cv2.FONT_HERSHEY_COMPLEX , 3 , (10 , 10 , 10))
+    # elif b[61 , 61] <= 100 and g[61 , 61] >= 215 and r[61 , 61] >= 248 :                 #yellow
+        # cv2.putText (blur_frm , "YELLOW" , (180 , 150) , cv2.FONT_HERSHEY_COMPLEX , 3 , (10 , 10 , 10))
 
     cv2.imshow ("result 2" , blur_frm)
-    writer.write (frm)
+    writer.write (blur_frm)
     if cv2.waitKey (25) & 0xFF == ord ('q') :
         break
 
