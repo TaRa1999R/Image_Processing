@@ -31,7 +31,9 @@ In this assignment my code detect different colors, such as : 🔴🟠🟡🟢�
 🟣 Purple color :
 ![alt text](outputs/output_2_detect_purple.png)
 
-## Thirs part : ...
+## Third part : MediaPipe
+
+...
 
 ## Fourth part : PIL (Python Image Library )
 In this assignment I used PILLOW (PIL) library to do diffrent analysis on a photo :
@@ -50,4 +52,6 @@ In this assignment I used PILLOW (PIL) library to do diffrent analysis on a phot
 
 7. Equalize the grascale histogram
 
-## Fifth part : ...
+## Fifth part : Image Encryption and Decryption
+
+...
