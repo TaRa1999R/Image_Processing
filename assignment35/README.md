@@ -11,7 +11,25 @@ In this assignment my code transparent a Microsoft logo and remove it's backgrou
 
 ![alt text](outputs/output_1_logo.png)
 
-## Second part : ...
+## Second part : Color Recognition
+In this assignment my code detect different colors, such as : 🔴🟠🟡🟢🔵🟣⚫⚪
+
+⚫ Black color :
+![alt text](outputs/output_2_detect_black.png)
+⚪ White color :
+![alt text](outputs/output_2_detect_white.png)
+🔴 Red color :
+![alt text](outputs/output_2_detect_red.png)
+🟠 Orange color :
+![alt text](outputs/output_2_detect_orange.png)
+🟡 Yellow color :
+![alt text](outputs/output_2_detect_yellow.png)
+🟢 Green color :
+![alt text](outputs/output_2_detect_green.png)
+🔵 Blue color :
+![alt text](outputs/output_2_detect_blue.png)
+🟣 Purple color :
+![alt text](outputs/output_2_detect_purple.png)
 
 ## Thirs part : ...
 
