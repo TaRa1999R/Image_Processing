@@ -13,12 +13,11 @@ image = cv2.imread ("inputs\input_5_Mona_Lisa.jpg")
 key = np.random.randint (0 , 256 , image.shape , np.uint8)
 
 encrypt_img = encrypt_decrypt (image , key)
-
 cv2.imshow ("result 5 : Encrypt Image" , encrypt_img)
 cv2.waitKey ()
-cv2.imwrite ("outputs\output_5_encryption.jpg" , encrypt_img)
+# cv2.imwrite ("outputs\output_5_encryption.jpg" , encrypt_img)
 
-
-# cv2.imshow ("result 5" , ...)
-# cv2.waitKey ()
-# cv2.imwrite ("outputs\output_5_dencryption.jpg" , ...)
+decrypt_img = encrypt_decrypt (encrypt_img , key )
+cv2.imshow ("result 5" , decrypt_img)
+cv2.waitKey ()
+# cv2.imwrite ("outputs\output_5_dencryption.jpg" , decrypt_img)
