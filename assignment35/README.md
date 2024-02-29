@@ -34,6 +34,8 @@ In this assignment my code detect different colors, such as : 🔴🟠🟡🟢�
 ## Third part : MediaPipe
 In this assignment I used mediapipe to detect body landmarks on webcam stream :
 
+...
+
 ## Fourth part : PIL (Python Image Library )
 In this assignment I used PILLOW (PIL) library to do diffrent analysis on a photo :
 
