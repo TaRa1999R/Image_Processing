@@ -2,7 +2,7 @@
 import cv2
 import numpy as np 
 
-def encrypt (img , key) :
+def encrypt_decrypt (img , key) :
     img_np = np.array (img)
     key_np = np.array (key)
 
@@ -12,11 +12,12 @@ def encrypt (img , key) :
 image = cv2.imread ("inputs\input_5_Mona_Lisa.jpg")
 key = np.random.randint (0 , 256 , image.shape , np.uint8)
 
-encrypt_img = encrypt (image , key)
+encrypt_img = encrypt_decrypt (image , key)
 
 cv2.imshow ("result 5 : Encrypt Image" , encrypt_img)
 cv2.waitKey ()
 cv2.imwrite ("outputs\output_5_encryption.jpg" , encrypt_img)
+
 
 # cv2.imshow ("result 5" , ...)
 # cv2.waitKey ()
