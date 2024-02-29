@@ -64,4 +64,12 @@ In this assignment I used PILLOW (PIL) library to do diffrent analysis on a phot
 ![alt text](outputs/output_4_gray_equalized.jpg)
 
 ## Fifth part : Image Encryption and Decryption
-In this assignment ...
+In this assignment I used a photo as an input, and each time I run the code a new key will be made, and by that I make an encryption model of my
+photo and decrypted it to the main photo.
+
+Input photo :
+![alt text](inputs/input_5_Mona_Lisa.jpg)
+Encrypted form :
+![alt text](outputs/output_5_encrypted_image.jpg)
+Decrypted form :
+![alt text](outputs/output_5_dencrypted_image.jpg)
