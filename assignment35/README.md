@@ -50,6 +50,8 @@ In this assignment I used PILLOW (PIL) library to do diffrent analysis on a phot
 
 3. Calculate 3 histogram and show with plt
 
+![alt text](outputs/output_4_histogram.jpg)
+
 4. Equalize the imge histogram
 
 ![alt text](outputs/output_4_equalized.jpg)
@@ -59,6 +61,8 @@ In this assignment I used PILLOW (PIL) library to do diffrent analysis on a phot
 ![alt text](outputs/output_4_gray_img.jpg)
 
 6. Calculate grayscale imge's histogram
+
+![alt text](outputs/output_4_gray_histogram.jpg)
 
 7. Equalize the grascale histogram
 
