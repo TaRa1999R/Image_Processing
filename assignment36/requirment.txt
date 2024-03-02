@@ -1,5 +1,2 @@
 opencv-python
 numpy
-mediapipe
-pillow
-matplotlib
