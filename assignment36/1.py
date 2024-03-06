@@ -3,7 +3,7 @@ import cv2
 import numpy as np 
 
 img = cv2.imread ("inputs\input_1_watermelon.jpg")
-img = cv2.resize (img , (950 , 750))
+img = cv2.resize (img , (700 , 500))
 
 img_rgb = cv2.cvtColor (img , cv2.COLOR_RGB2BGR)
 img_hsv = cv2.cvtColor (img_rgb , cv2.COLOR_RGB2HSV)
