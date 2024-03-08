@@ -23,7 +23,9 @@ Here is my Materwelon :
 
 ## Seventh part : Spiderman's New Clothe
 In this assignment I have been asked to change the color of spiderman's clothe to green and yellow.
+
 By using this parameters I designed three new outfit for him:
+
 🔵🟢 The combination of green and blue clothe
 ![alt text](outputs/output_7_spiderman_new_outfit_bg.jpg)
 🔵🟡 The combination of yellow and blue clothe
