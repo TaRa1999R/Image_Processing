@@ -12,7 +12,7 @@ h , s , v = cv2.split (img_hsv)
 
 for i in range (h.shape [0]) :
     for j in range (h.shape [1]) :
-        if h [i , j] < 15 or h [i , j] > 165 :
+        if h [i , j] < 20 or h [i , j] > 180 :
           h [i , j] += 60
 
 result = cv2.merge ((h , s , v))

@@ -15,7 +15,7 @@ for i in range (img.shape[0]) :
     for j in range (img.shape[1]) :
         
         if 25 < h [i , j] < 80 :
-            h [i , j] -= 50
+            h [i , j] -= 42
         
             if h [i , j] < 0 :
                 h [i , j] += 180
@@ -31,4 +31,4 @@ result = cv2.cvtColor (result , cv2.COLOR_HSV2BGR)
 
 cv2.imshow ("result 1" , result)
 cv2.waitKey ()
-cv2.imwrite ("outputs\output_1_materwelon.jpg" , result)
+# cv2.imwrite ("outputs\output_1_materwelon.jpg" , result)
