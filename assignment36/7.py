@@ -15,12 +15,16 @@ for i in range (h.shape [0]) :
         if h [i , j] < 15 or h [i , j] > 165 :
           if s [i , j] > 150 :
             h [i , j] += 30 
+        
+        elif 60 < h[i , j] < 150 :
+           if s [i , j] > 190 and v [i , j] < 165 :
+              h [i , j] -= 30
+              if v [i , j] > 25 :
+                v [i , j] -= 24
           
-        elif < h [i , j] <
-
 result = cv2.merge ((h , s , v))
 result = cv2.cvtColor (result , cv2.COLOR_HSV2BGR)
 
 cv2.imshow ("result 7" , result)
 cv2.waitKey ()
-# cv2.imwrite ("outputs\output_7_spiderman_new_outfit_gy.jpg" , result)
+cv2.imwrite ("outputs\output_7_spiderman_new_outfit_gy.jpg" , result)
