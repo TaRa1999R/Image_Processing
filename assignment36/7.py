@@ -13,12 +13,11 @@ h , s , v = cv2.split (img_hsv)
 for i in range (h.shape [0]) :
     for j in range (h.shape [1]) :
         if h [i , j] < 20 or h [i , j] > 170 :
-          if s [i , j] > 70 :
-            h [i , j] += 20
+          h [i , j] += 20
 
 
 result = cv2.merge ((h , s , v))
-result = cv2.cvtColor (result , cv2.COLOR_HLS2RGB)
+result = cv2.cvtColor (result , cv2.COLOR_HSV2RGB)
 
 cv2.imshow ("result 7" , img)
 cv2.waitKey ()
