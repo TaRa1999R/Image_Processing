@@ -21,4 +21,4 @@ result = cv2.cvtColor (result , cv2.COLOR_HSV2RGB)
 
 cv2.imshow ("result 7" , result)
 cv2.waitKey ()
-# cv2.imwrite ("outputs\output_7_spiderman_new_outfit.jpg" , img)
+cv2.imwrite ("outputs\output_7_spiderman_new_outfit.jpg" , result)
