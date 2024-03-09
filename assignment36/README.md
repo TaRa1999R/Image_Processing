@@ -11,7 +11,23 @@ In this assignment I used HSV color space to switch the place of red and green c
 Here is my Materwelon :
 ![alt text](outputs/output_1_materwelon.jpg)
 
-## Second part : ...
+## Second part : COLOR DETECTION
+In this assignment I used HSV color space to detect different color. Here is my outputs :
+⚫ Black :
+
+⚪ White :
+
+🔴 Red :
+
+🟣 Purple :
+
+🔵 Blue :
+
+🟢 Green :
+
+🟡 Yellow :
+
+🟠 Orange :
 
 ## Third part : ...
 
