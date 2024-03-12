@@ -24,7 +24,7 @@ while True :
     elif s [61 , 61] < 20 :                      #white
         cv2.putText (blur_frm , "WHITE" , (180 , 150) , cv2.FONT_HERSHEY_COMPLEX , 3 , (0 , 0 , 0))
 
-    elif h [61 , 61] < 15 or h [61 , 61] > 170 :                      #red
+    elif h [61 , 61] < 10 or h [61 , 61] > 170 :                      #red
         cv2.putText (blur_frm , "RED" , (180 , 150) , cv2.FONT_HERSHEY_COMPLEX , 3 , (0 , 0 , 0))
 
     elif 130 < h [61 , 61] < 145 :                      #purple
@@ -36,10 +36,10 @@ while True :
     elif 31 < h [61 , 61] < 83 :                      #green
         cv2.putText (blur_frm , "GREEN" , (180 , 150) , cv2.FONT_HERSHEY_COMPLEX , 3 , (0 , 0 , 0))
 
-    elif 19 < h [61 , 61] < 31 :                      #yellow
+    elif 29 < h [61 , 61] < 31 :                      #yellow
         cv2.putText (blur_frm , "YELLOW" , (180 , 150) , cv2.FONT_HERSHEY_COMPLEX , 3 , (0 , 0 , 0))
 
-    elif 15 < h [61 , 61] < 22 :                      #orange
+    elif 10 < h [61 , 61] < 29 :                      #orange
         cv2.putText (blur_frm , "ORANGE" , (180 , 150) , cv2.FONT_HERSHEY_COMPLEX , 3 , (0 , 0 , 0))
 
     else :
