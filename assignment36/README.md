@@ -35,6 +35,7 @@ My input image is :
 ![alt text](inputs/input_3_balloons.jpg)
 
 The output image is :
+
 ![alt text](outputs/output_3_Balloon_detection.jpg)
 
 ## Fourth part : ...
