@@ -40,7 +40,13 @@ The output image is :
 
 ## Fourth part : ...
 
-## Fifth part : ...
+## Fifth part : Blue Screen Technique
+In this assignment I used HSV color space to change the background of flying superman.
+The input image is :
+![alt text](inputs/input_5_superman.jpg)
+
+And the output is the superman flying in the sky of Tehran :
+![alt text](outputs/output_5_superman.jpg)
 
 ## Sixth part : ...
 
