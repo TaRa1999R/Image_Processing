@@ -22,25 +22,25 @@ while True :
         cv2.putText (blur_frm , "BLACK" , (180 , 150) , cv2.FONT_HERSHEY_COMPLEX , 3 , (200 , 200 , 200))
 
     elif s [61 , 61] < 20 :                      #white
-        cv2.putText (blur_frm , "WHITE" , (180 , 150) , cv2.FONT_HERSHEY_COMPLEX , 3 , (200 , 200 , 200))
+        cv2.putText (blur_frm , "WHITE" , (180 , 150) , cv2.FONT_HERSHEY_COMPLEX , 3 , (0 , 0 , 0))
 
-    elif h [61 , 61] < 15 or h [61 , 61] > 165 :                      #red
-        cv2.putText (blur_frm , "RED" , (180 , 150) , cv2.FONT_HERSHEY_COMPLEX , 3 , (200 , 200 , 200))
+    elif h [61 , 61] < 15 or h [61 , 61] > 170 :                      #red
+        cv2.putText (blur_frm , "RED" , (180 , 150) , cv2.FONT_HERSHEY_COMPLEX , 3 , (0 , 0 , 0))
 
-    elif 140 < h [61 , 61] < 165 :                      #purple
-        cv2.putText (blur_frm , "PURPLE" , (180 , 150) , cv2.FONT_HERSHEY_COMPLEX , 3 , (200 , 200 , 200))
+    elif 130 < h [61 , 61] < 145 :                      #purple
+        cv2.putText (blur_frm , "PURPLE" , (180 , 150) , cv2.FONT_HERSHEY_COMPLEX , 3 , (0 , 0 , 0))
 
-    elif 105 < h [61 , 61] < 140 :                      #blue
-        cv2.putText (blur_frm , "BLUE" , (180 , 150) , cv2.FONT_HERSHEY_COMPLEX , 3 , (200 , 200 , 200))
+    elif 83 < h [61 , 61] < 130 :                      #blue
+        cv2.putText (blur_frm , "BLUE" , (180 , 150) , cv2.FONT_HERSHEY_COMPLEX , 3 , (0 , 0 , 0))
 
-    elif 50 < h [61 , 61] < 105 :                      #green
-        cv2.putText (blur_frm , "GREEN" , (180 , 150) , cv2.FONT_HERSHEY_COMPLEX , 3 , (200 , 200 , 200))
+    elif 31 < h [61 , 61] < 83 :                      #green
+        cv2.putText (blur_frm , "GREEN" , (180 , 150) , cv2.FONT_HERSHEY_COMPLEX , 3 , (0 , 0 , 0))
 
-    elif 22 < h [61 , 61] < 50 :                      #yellow
-        cv2.putText (blur_frm , "YELLOW" , (180 , 150) , cv2.FONT_HERSHEY_COMPLEX , 3 , (200 , 200 , 200))
+    elif 19 < h [61 , 61] < 31 :                      #yellow
+        cv2.putText (blur_frm , "YELLOW" , (180 , 150) , cv2.FONT_HERSHEY_COMPLEX , 3 , (0 , 0 , 0))
 
     elif 15 < h [61 , 61] < 22 :                      #orange
-        cv2.putText (blur_frm , "ORANGE" , (180 , 150) , cv2.FONT_HERSHEY_COMPLEX , 3 , (200 , 200 , 200))
+        cv2.putText (blur_frm , "ORANGE" , (180 , 150) , cv2.FONT_HERSHEY_COMPLEX , 3 , (0 , 0 , 0))
 
     else :
         cv2.putText (blur_frm , "UNKNOWN" , (180 , 150) , cv2.FONT_HERSHEY_COMPLEX , 3 , (10 , 10 , 10))
