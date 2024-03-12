@@ -43,7 +43,7 @@ while True :
         cv2.putText (blur_frm , "ORANGE" , (180 , 150) , cv2.FONT_HERSHEY_COMPLEX , 3 , (0 , 0 , 0))
 
     else :
-        cv2.putText (blur_frm , "UNKNOWN" , (180 , 150) , cv2.FONT_HERSHEY_COMPLEX , 3 , (10 , 10 , 10))
+        cv2.putText (blur_frm , "UNKNOWN" , (100 , 150) , cv2.FONT_HERSHEY_COMPLEX , 3 , (10 , 10 , 10))
           
     check_color = cv2.merge ((h , s , v))
     check_color = cv2.cvtColor (check_color , cv2.COLOR_HSV2BGR)
