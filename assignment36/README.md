@@ -29,7 +29,13 @@ In this assignment I used HSV color space to detect different color. Here is my 
 
 🟠 Orange :
 
-## Third part : ...
+## Third part : Balloons Detection
+In this assignment we used a code to detect pink balloons among balloons with different colors.
+My input image is :
+![alt text](inputs/input_3_balloons.jpg)
+
+The output image is :
+![alt text](outputs/output_3_Balloon_detection.jpg)
 
 ## Fourth part : ...
 
