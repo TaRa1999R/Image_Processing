@@ -15,19 +15,35 @@ Here is my Materwelon :
 In this assignment I used HSV color space to detect different color. Here is my outputs :
 ⚫ Black :
 
+![alt text](outputs/output_2_black.png)
+
 ⚪ White :
+
+![alt text](outputs/output_2_white.png)
 
 🔴 Red :
 
+![alt text](outputs/output_2_red.png)
+
 🟣 Purple :
+
+![alt text](outputs/output_2_purple.png)
 
 🔵 Blue :
 
+![alt text](outputs/output_2_blue.png)
+
 🟢 Green :
+
+![alt text](outputs/output_2_green.png)
 
 🟡 Yellow :
 
+![alt text](outputs/output_2_yellow.png)
+
 🟠 Orange :
+
+![alt text](outputs/output_2_orange.png)
 
 ## Third part : Balloons Detection
 In this assignment we used a code to detect pink balloons among balloons with different colors.
