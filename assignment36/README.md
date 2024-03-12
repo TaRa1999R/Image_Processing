@@ -9,7 +9,7 @@ pip install -r requirments.txt
 ## First part : Watermelon to Materwelon
 In this assignment I used HSV color space to switch the place of red and green color.
 Here is my Materwelon :
-![alt text](outputs/output_1_materwelon2.jpg)
+![alt text](outputs/output_1_materwelon.jpg)
 
 ## Second part : COLOR DETECTION
 In this assignment I used HSV color space to detect different color. Here is my outputs :
