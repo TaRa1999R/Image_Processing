@@ -17,4 +17,4 @@ result = result.astype(np.uint8)
 
 cv2.imshow ("result 3" , result)
 cv2.waitKey ()
-# cv2.imwrite ("outputs\output_3_Balloon_detection.jpg" , img)
+cv2.imwrite ("outputs\output_3_Balloon_detection.jpg" , result)
