@@ -46,7 +46,7 @@ In this assignment I used HSV color space to detect different color. Here is my 
 ![alt text](outputs/output_2_orange.png)
 
 ## Third part : Balloons Detection
-In this assignment we used a code to detect pink balloons among balloons with different colors.
+In this assignment I used a code to detect pink balloons among balloons with different colors.
 My input image is :
 ![alt text](inputs/input_3_balloons.jpg)
 
@@ -54,7 +54,11 @@ The output image is :
 
 ![alt text](outputs/output_3_Balloon_detection.jpg)
 
-## Fourth part : ...
+## Fourth part : Skin Detection
+In this assignment I used a code to detect the skin of people by using webcam.
+Here is a frame of my output video :
+
+
 
 ## Fifth part : Blue Screen Technique
 In this assignment I used HSV color space to change the background of flying superman.
