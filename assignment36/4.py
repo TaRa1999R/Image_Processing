@@ -1,6 +1,8 @@
 
 import cv2
 import numpy as np 
+import imutils
+import argparse
 
 cap = cv2.VideoCapture (0)
 writer = cv2.VideoWriter ("outputs\output_4_skin_detector.mp4" , cv2.VideoWriter_fourcc (*'mpv4') , 10 , (640 , 480))
