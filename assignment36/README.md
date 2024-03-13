@@ -71,9 +71,11 @@ And the output is the superman flying in the sky of Tehran :
 ## Sixth part : Change Clothes Color
 In this assignment I used HSV color space to change the color of my shirt in a photo.
 The main color of my shirt was red as you can see in input photo:
+
 ![alt text](inputs/input_6_tara.jpg)
 
 And the new color of my shirt is purple as you can see in output photo :
+
 ![alt text](outputs/output_6_new_shirt.jpg)
 
 ## Seventh part : Spiderman's New Clothe
