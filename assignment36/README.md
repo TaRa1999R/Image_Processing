@@ -56,9 +56,6 @@ The output image is :
 
 ## Fourth part : Skin Detection
 In this assignment I used a code to detect the skin of people by using webcam.
-Here is a frame of my output video :
-
-
 
 ## Fifth part : Blue Screen Technique
 In this assignment I used HSV color space to change the background of flying superman.
